@@ -2,6 +2,7 @@ import { StyleSheet } from "react-native";
 
 
 export default StyleSheet.create({
+
     container: {
         flex: 1,
         width:'100%',
@@ -11,11 +12,16 @@ export default StyleSheet.create({
         marginHorizontal: 0,
     },
     quoteCard: {
-        width: '100%',
-        marginVertical: 10,
-        backgroundColor: '#fff',
-        color: '#444',
-        borderRadius: 4,
+      alignContent: 'center',
+      alignItems: 'center',
+      width: '100%',
+      marginVertical: 10,
+      backgroundColor: 'black',
+      borderColor: 'gold',
+      borderWidth: 1,
+      color: 'blue',
+      borderRadius: 5,
+      margin: 4,
     },
     text: {
         color: 'white',
@@ -25,21 +31,11 @@ export default StyleSheet.create({
     },
     authorName: {
         marginHorizontal: 12,
-        fontSize: 24,
+        fontSize: 22,
         fontWeight: '600',
         marginTop: 15,
-    },
-    cuisine: {
-        marginHorizontal: 12,
-        fontSize: 16,
-        fontWeight: '100',
-        color: '#ff3333',
-    },
-    address: {
-        marginHorizontal: 12,
-        fontSize: 14, 
-        fontWeight: '300',
-        color: '#303030',
-        marginBottom: 8,
-    },
-    });
+        marginBottom: 10,
+        color: 'white',
+        fontStyle: 'Cursive',
+    }
+  })

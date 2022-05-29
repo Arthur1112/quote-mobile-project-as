@@ -6,7 +6,7 @@ export default function QuoteCard({singleQuote}){
     return(
         <View style={styles.quoteCard}>
             <Text style={styles.authorName}>
-                {singleQuote.name}
+                {singleQuote.quote} - {singleQuote.author}
             </Text>
         </View>
     )

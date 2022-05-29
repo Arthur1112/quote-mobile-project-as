@@ -22,7 +22,7 @@ export default function Home({ navigation }){
     return (
         <ScrollView>
             {!allQuotes
-                ?<ActivityIndicator size ='large' color='orange'/>
+                ?<ActivityIndicator size ='large' color='gold'/>
                 : allQuotes.map(singleQuote => (
                     <TouchableOpacity key={singleQuote.id} onPress={() => handlePress(singleQuote)}>
                     <QuoteCard singleQuote={singleQuote} />
